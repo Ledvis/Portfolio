@@ -1,0 +1,18 @@
+#about {
+	.about-text {
+		margin-bottom: 40px;
+		font-size: 22px;
+	}
+	img {
+		margin-bottom: 20px;
+		opacity: 0.7;
+	}
+}
+
+@media(min-width:768px) {
+	#about {
+		img {
+			margin-bottom: 0;
+		}
+	}
+}

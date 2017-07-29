@@ -1,0 +1,37 @@
+{
+  "name": "Portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "freelancer",
+  "devDependencies": {
+    "autoprefixer": "7.1.x",
+    "bootstrap": "^4.0.0-alpha.6",
+    "browser-sync": "^2.18.12",
+    "css-mqpacker": "^6.0.1",
+    "del": "^3.0.0",
+    "font-awesome": "4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-svgmin": "^1.2.4",
+    "gulp-svgstore": "^6.1.0",
+    "jquery": "^3.2.1",
+    "jquery.easing": "^1.4.1",
+    "run-sequence": "^1.2.2",
+    "tether": "^1.4.0"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "engines": {
+    "node": "6.10.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}

@@ -6841,23 +6841,12 @@ footer {
   outline: none; }
 
 #mainNav {
-  padding: 1rem 0.5rem;
   font-weight: 700;
   text-transform: uppercase;
   background: #3C3487; }
   #mainNav a:focus {
     outline: none; }
-  #mainNav .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    min-height: 38px; }
   #mainNav .navbar-brand {
-    padding: 0;
-    margin: 0;
     color: white; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:active, #mainNav .navbar-brand.active {
       color: white; }
